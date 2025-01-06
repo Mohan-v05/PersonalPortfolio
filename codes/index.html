@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A full stack developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+
+        header {
+            background: linear-gradient(90deg, #4e54c8, #8f94fb);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff !important;
+        }
+
+        .navbar-nav .nav-link {
+            color: #ddd;
+            transition: color 0.3s;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #fff;
+        }
+
+        #Whoisme {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        #Whoisme img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #007bff;
+        }
+
+        #whatIknows {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 50px 20px;
+            border-radius: 10px;
+        }
+
+        #whatIknows img {
+            height: 100px;
+            width: auto;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        #whatIknows img:hover {
+            transform: scale(1.2);
+        }
+
+        #WhatIbuilds {
+            background-color: #f8f9fa;
+            padding: 50px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(90deg, #1d8cf8, #3358ff);
+            border: none;
+            color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 15px rgba(33, 150, 243, 0.4);
+        }
+
+        footer {
+            background: linear-gradient(90deg, #4e54c8, #8f94fb);
+            color: #fff;
+            padding: 20px;
+        }
+
+        .social-icons img {
+            height: 40px;
+            width: 40px;
+            margin: 0 10px;
+            transition: transform 0.3s;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.3);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="py-3">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"> Welcome to my website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#Whoisme">Who is Mohan</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#whatIknows">What He Knows</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#WhatIbuilds">What He Built</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Howtocontactme">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <section id="Whoisme">
+            <h1>Who is Mohan</h1>
+            <p>He is a web developer passionate about building creative solutions.</p>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="../Assets/my pic.jpg" alt="Mohan's Image">
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Mohan is an innovative web developer with a strong foundation in technologies like Angular, .NET, and SQLServer. 
+                        He has built and contributed to several dynamic web applications, focusing on creating efficient, user-friendly solutions tailored to client needs.
+                    </p>
+                    <p>
+                        His projects include a Gym Fees Management System and a Fitness Program Management Console Application, 
+                        showcasing his ability to blend creativity with functionality. Mohan is passionate about learning and applying modern web development practices, 
+                        consistently exploring new tools and techniques to deliver impactful solutions.
+                    </p>
+                    
+                    <a href="resume.pdf" class="btn btn-primary btn-lg mt-3 px-4" target="_blank">
+                        <i class="fas fa-file-alt"></i> See My Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="whatIknows" class="mt-5 text-center">
+            <h1>What He Knows</h1>
+            <div class="row">
+                <div class="col-md-4"><img src="../Assets/html.png" alt="HTML logo"></div>
+                <div class="col-md-4"><img src="../Assets/csslogo.png" alt="CSS logo"></div>
+                <div class="col-md-4"><img src="../Assets/js-logo.webp" alt="JavaScript logo"></div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-4"><img src="../Assets/csharp.png" alt="C# logo"></div>
+                <div class="col-md-4"><img src="../Assets/OIP.jpg" alt="SQLServer logo"></div>
+                <div class="col-md-4"><img src="../Assets/angular.png" alt="Angular logo"></div>
+            </div>
+        </section>
+
+        <section id="WhatIbuilds" class="mt-5">
+            <h1>What He Built</h1>
+            <p>Mohan has developed a diverse portfolio of projects, including responsive web applications, robust management systems, and dynamic websites. These projects demonstrate his proficiency in cutting-edge technologies like Angular, .NET, and SQL Server, delivering innovative solutions tailored to client needs.</p>
+            <p>With a strong focus on efficiency, usability, and modern design practices, his work addresses real-world challenges while ensuring exceptional user experiences. Explore more of Mohan’s expertise and creative solutions by visiting his <a href="https://github.com/Mohan-v05" target="_blank" class="text-primary">GitHub portfolio</a>.</p>
+        </section>
+
+        <section id="Howtocontactme" class="mt-5 text-center">
+            <h1>Let's Connect!</h1>
+            <p>Have a question or want to collaborate? Feel free to reach out!</p>
+            <p>Email me at <a href="mailto:mohan@example.com" class="text-primary">mohan@example.com</a>.</p>
+            <div class="social-icons mt-3">
+                <p>Or find me on these platforms:</p>
+                <a href="#" target="_blank" class="mx-2">
+                    <img src="../Assets/icons8-linkedin-128.png" alt="LinkedIn" style="width: 40px; height: 40px;">
+                </a>
+                <a href="#" target="_blank" class="mx-2">
+                    <img src="../Assets/icons8-github-128.png" alt="GitHub" style="width: 40px; height: 40px;">
+                </a>
+                <a href="#" target="_blank" class="mx-2">
+                    <img src="../Assets/icons8-facebook-128.png" alt="Facebook" style="width: 40px; height: 40px;">
+                </a>
+                <a href="#" target="_blank" class="mx-2">
+                    <img src="../Assets/icons8-youtube-logo-128.png" alt="youtube" style="width: 40px; height: 40px;">
+                </a>
+                <a href="#" target="_blank" class="mx-2">
+                    <img src="../Assets/icons8-instagram-128.png" alt="instagram" style="width: 40px; height: 40px;">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <p>© 2025 Mohan's Portfolio. Built with passion.</p>
+    </footer>
+
+  
+</body>
+
+</html>
